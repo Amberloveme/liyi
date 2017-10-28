@@ -1,0 +1,741 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+.header{
+	background-image: url(photo/homepage-hero.image.large_2x.jpg);
+	height: 705px;
+	width: 100%;
+	background-size: 1800px 679px;
+	background-repeat: no-repeat;
+	background-position: center 30%;
+}
+.header-top{
+	height: 44px;
+	width: 100%;
+	opacity: 0.80;
+	float: left;
+	background: black;
+}
+#top-box{
+	height: 44px;
+	width: 70%;
+	margin: auto;
+}
+.top-photo{
+	background-image: url(photo/image_large.svg);
+	background-repeat: no-repeat;
+	height: 44px;
+	width: 30px;
+	margin-left: 4.4%;
+	cursor: pointer;
+	float: left;
+}
+.top-photo:hover{
+	opacity: 0.7;
+}
+.top-text{
+	height: 44px;
+	width: 30px;
+	float: left;
+	color: white;
+	line-height: 44px;
+	margin-left: 8%;
+	font-size: 12.5px;
+}
+.text-in{
+	display: block;
+	width: 50px;
+}
+.text-in:hover{
+	color: gray;
+}
+.top-photo-one{
+	height: 44px;
+	width: 30px;
+	cursor: pointer;
+	margin-left: 9%;
+	float: left;
+	text-align: center;
+}
+.top-photo-one:hover{
+	opacity: 0.7;
+}
+.top-after-header{
+	height: 50px;
+	width: 100%;
+	float: left;
+}
+.top-after-box{
+	height: 50px;
+	width: 64%;
+	margin: auto;
+	border-bottom: solid #eeeeed 0.5px;
+}
+.list-left{
+	font-size: 22px;
+	color: white;
+	float: left;
+	line-height: 50px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+.list-right{
+	font-size: 10px;
+	color: white;
+	float:right;
+	line-height: 50px;
+	margin-top: 10px;
+	margin-left: 2%;
+	cursor: pointer;
+}
+.list-right:hover{
+	color: #0cb6d0;
+}
+#top-last-box{
+	float: left;
+	height: 230px;
+	width: 100%;
+	margin-top: 10px;
+}
+.box-in-box{
+	height: 230px;
+	width: 64%;
+	margin: auto;
+}
+.box-h1{
+	font-size: 40px;
+	line-height: 60px;
+	width: 100%;
+	color: white;
+	text-align: center;
+	display: block;
+	float: left;
+	margin-top: 40px;
+	font-weight: 550;
+}
+.box-after-box{
+	height: 40px;
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+}
+.box-h2{
+	font-size: 18px;
+	line-height: 30px;
+	width: 100%;
+	text-align: center;
+	float: left;
+	color: white;
+	margin-top: 10px;
+}
+.box-last-box{
+	height: 50px;
+	width: 70%;
+	float: left;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-radius: 2px;
+	margin-top: 30px;
+}
+.nov-photo{
+	height: 50px;
+	width: 8%;
+	float: left;
+	background-color: white;
+}
+.image-1{
+	height: 25px;
+	width: 25px;
+	margin-top: 13px;
+	margin-left: 30%;
+}
+.search{
+	line-height: 50px;
+	width: 92%;
+	border: white;
+}
+.main-h1{
+	width: 50%;
+	text-align: center;
+	display: block;
+	margin: auto;
+	color: #333333;
+}
+.main-top{
+	height: 160px;
+	width: 70%;
+	float: left;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 65px;
+}
+.main-photo{
+	height: 130px;
+	width: 16.66%;
+	float: left;
+}
+.main-text{
+	font-size: 15px;
+	width: 80%;
+	color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 15px;
+	text-align: center;
+	float: left;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.main-img1{
+	height: 74px;
+	width: 68px;
+	margin-left: 30%;
+	margin-right: 30%;
+	float: left;
+	cursor: pointer;
+}
+.main-text:hover{
+	text-decoration: underline;
+}
+.main-next{
+	height: 60px;
+	width: 100%;
+	float: left;
+	border-top: solid #b6b6b2 0.5px;
+	border-bottom: solid #b6b6b2 0.5px;
+}
+.next-text{
+	font-size: 15px;
+	color: #5770cc;
+	margin-left: 46%;
+	line-height: 60px;
+	cursor: pointer;
+}
+.next-sum{
+	font-size: 25px;
+	color: #5770cc;
+	margin-right: 46%;
+	cursor: pointer;
+}
+.main-then{
+	height: 320px;
+	width: 100%;
+	float: left;
+	border-top: solid #b6b6b2 0.5px;
+	border-bottom: solid #b6b6b2 0.5px;
+}
+.then-box{
+	width: 420px;
+	height: 280px;
+	background-color: white;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 20%;
+	float: left;
+}
+.then-h2{
+	font-size: 34px;
+	float: left;
+	color: #333333;
+	margin-bottom: 20px;
+}
+.then-text{
+	float: left;
+	font-size: 19px;
+	color: black;
+	margin-bottom: 20px;
+}
+.then-after-text{
+	height: 100px;
+	width: 100%;
+	float: left;
+}
+.then-sp{
+	height: 40px;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+.then-verbal{
+	font-size: 20px;
+	color: #5770cc;
+}
+.then-verbal:hover{
+	text-decoration: underline;
+}
+.then-photo{
+	width: 450px;
+	height: 280px;
+	float: left;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: 20%;
+}
+.main-after{
+	height: 360px;
+	width: 70%;
+	float: left;
+	margin-left: 15%;
+	margin-right: 15%;
+	border-top: :solid #b6b6b2 0.5px;
+	border-bottom: solid #b6b6b2 0.5px;
+}
+.after-box{
+	height: 360px;
+	width: 50%;
+	float: left;
+}
+.after-photo1{
+	height: 160px;
+	width: 250px;
+	float: left;
+	margin-left: 17%;
+	margin-right: 17%;
+	margin-top: 5%;
+}
+.after-box-in{
+	height: 200px;
+	width: 100%;
+	float: left;
+}
+.after-h1{
+	font-size: 28px;
+	color: #333333;
+	float: left;
+	margin-bottom: 15px;
+}
+.after-text{
+	width: 100%;
+	height: 70px;
+	float: left;
+	font-size: 15px;
+}
+.after-verbal{
+	height: 30px;
+	width: 100%;
+	float: left;
+	color: #5770cc;
+	cursor: pointer;
+}
+.after-verbal:hover{
+	text-decoration: underline;
+}
+.after-span{
+	color: #5770cc;
+	cursor: pointer;
+}
+.after-span:hover{
+	text-decoration: underline;
+}
+.after-photo2{
+	height: 160px;
+	width: 250px;
+	float: left;
+	margin-left: 26%;
+	margin-right: 26%;
+	margin-top: 5%;
+}
+.main-next__{
+	height: 250px;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	float: left;
+}
+.next__-h3{
+	height: 50px;
+	text-align: center;
+	font-size: 22px;
+	color: black;
+	margin-left: 42%;
+	margin-right: 42%;
+	float:left;
+	margin-top: 40px;
+}
+.next__-text{
+	height: 70px;
+	text-align: center;
+	font-size: 15px;
+	color:black;
+	float: left;
+	width: 100%; 
+}
+.next__-p{
+	height: 40px;
+	width: 100%;
+	font-size: 15px;
+	color: black;
+	float: left;
+	text-align: center; 
+	margin-top: 15px;
+}
+.main-then__{
+	height: 500px;
+	width: 100%;
+	background-image: url(photo/today-at-apple-workshop-banner.image.large_2x.jpg);
+	float: left;
+	background-size: 1800px 679px;
+	background-position: center 30%;
+}
+.then__-box{
+	height: 200px;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	float: left;
+}
+.then__-h2{
+	height: 95px;
+	width: 300px;
+	float: left;
+	font-size: 35px;
+	color: white;
+	margin-right: 60%;
+	font-weight: 580;
+}
+.then__-text{
+	height: 60px;
+	width: 400px;
+	float: left;
+	color: white;
+	opacity: 0.8;
+	line-height: 25px;
+	margin-right: 50%;
+	margin-top: 10px;
+}
+.then__-span{
+	height: 20px;
+	width: 400px;
+	float: left;
+	color: #5770cc;
+	margin-top: 10px;
+}
+.then__-span:hover{
+	text-decoration: underline;
+}
+.main-after__{
+	height: 400px;
+	width: 70%;
+	float: left;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.after__-box{
+	height: 400px;
+	width: 50%;
+	float: left;
+}
+.after__-photo{
+	height: 230px;
+	width: 375px;
+	margin-left: 14%;
+	margin-right: 14%;
+}
+.after__-h3{
+	font-size: 26px;
+	float: left;
+	margin-left: 5%;
+	color: black;
+	margin-top: 20px;
+}
+.after__-text{
+	height: 30px;
+	width: 420px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+.after__-span{
+	height: 40px;
+	width: 420px;
+	font-size: 15px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 5%;
+	color: #5770cc;
+	cursor: pointer;
+}
+.after__-span:hover{
+	text-decoration: underline;
+}
+#main-correct{
+	height: 280px;
+	width: 100%;
+	float: left;
+	border-top: solid #eeeeed 0.5px;
+}
+.main-afterwards{
+	height: 280px;
+	width: 817px;
+	margin-left: 21%;
+	margin-right: 21%;
+	float: left;
+}
+.afterwards-box{
+	width: 547px;
+	height: 111px;
+	float: left;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.afterwards-h3{
+	width: 547px;
+	height: 40px;
+	float: left;
+	font-size: 26px;
+	color: black;
+	margin-bottom: 10px;
+}
+.afterwards-text{
+	width: 547px;
+	height: 25px;
+	float: left;
+	margin-bottom: 10px;
+}
+.afterwards-a{
+	width: 547px;
+	width: 16px;
+	cursor: pointer;
+	color: #5770cc;
+}
+.afterwards-photo{
+	height: 150px;
+	width: 150px;
+	float: right;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.after-main-capital{
+	height: 180px;
+	width: 980px;
+	float: left;
+	margin-left: 18%;
+	margin-right: 18%;
+	border-top: solid #eeeeed 0.5px;
+	border-bottom: solid #eeeeed 0.5px;
+}
+.After-h3{
+	height: 47px;
+	width: 817px;
+	float: left;
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: center;
+	font-size: 21px;
+	color: black;
+	margin-top: 40px;
+}
+.After-span{
+	height: 25px;
+	width: 980px;
+	float: left;
+	text-align: center;
+	color: #5770cc;
+	cursor: pointer;
+	margin-top: 15px;
+}
+.After-span{
+	text-decoration: underline;
+}
+.Then-box{
+	height: 230px;
+	width: 980px;
+	float: left;
+	margin-left: 18%;
+	margin-right: 18%;
+	border-bottom:solid #eeeeed 0.5px;
+}.Then-h2{
+	height: 47px;
+	width: 817px;
+	float: left;
+	margin-left: 8%;
+	margin-right: 8%;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+	margin-top: 60px;
+}
+.Then-span{
+	height: 25px;
+	width: 980px;
+	float: left;
+	text-align: center;
+	color: #5770cc;
+	cursor: pointer;
+	margin-top: 15px;
+}
+.Then-span{
+	text-decoration: underline;
+}
+.Next-box{
+	height: 450px;
+	width: 980px;
+	float: left;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.Next-h2{
+	height: 42px;
+	width: 980px;
+	float: left;
+	font-size: 25px;
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.Next-li{
+	height: 15px;
+	width: 980px;
+	float: left;
+	color: #5770cc;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.Next-li:hover{
+	text-decoration: underline;
+}
+.footer-box{
+	height: 270px;
+	width: 100%;
+	float: left;
+	background-color: #f2f2f2;
+}
+.footer-top-box{
+	height: 25px;
+	width: 980px;
+	float: left;
+	margin-left: 18%;
+	margin-right: 18%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.-top-box-photo{
+	height: 18px;
+	width: 14px;
+	float: left;
+	background-image: url(photo/icon_large.svg);
+	background-position: 0px 0px;
+	cursor: pointer;
+}
+.-top-box-photo:hover{
+	background-position: 0px -18px;
+}
+.-top-box-span-li{
+	font-size: 15px;
+	color: #eeeeed;
+	display: block;
+	float: left;
+	margin-right: 15px;
+	margin-left: 5px;
+	cursor: default;
+}
+.-top-box-span{
+	font-size: 12px;
+	color: gray;
+	float: left;
+	margin-top: 2px;
+}
+.footer-main-box{
+	height: 140px;
+	width: 980px;
+	float: left;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.-main-box-in{
+	height: 120px;
+	width: 245px;
+	float: left;
+}
+.-main-box-h3{
+	height: 13.6px;
+	width: 245px;
+	float: left;
+	font-size: 10px;
+}
+.-main-box-li{
+	height: 17.6px;
+	width: 245px;
+	float: left;
+	line-height: 25px;
+}
+.-main-box-a{
+	cursor: pointer;
+	color: gray;
+	opacity: 0.8;
+	font-size: 10px;
+}
+.footer-then-box{
+	height: 24px;
+	width: 980px;
+	float: left;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.-then-box-p{
+	width: 460px;
+	float: left;
+	font-size: 10px;
+}
+.-then-box-a{
+	font-size: 10px;
+	color: #5770cc;
+	cursor: pointer;
+}
+.footer-last-box{
+	height: 18px;
+	width: 980px;
+	float: left;
+	margin-left: 18%;
+	margin-right: 18%;
+}
+.-last-box-in{
+	height: 18px;
+	width: 220px;
+	float: left;
+	color: gray;
+	opacity: 0.9;
+	font-size: 9px;
+}
+.-last-box-out{
+	height: 18px;
+	width: 325px;
+	float: left;
+}
+.-last-box-a{
+	height: 10.4px;
+	width: 52.8px;
+	float: left;
+	cursor: pointer;
+	font-size: 9px;
+	margin-left: 10px;
+}
+.-last-box-b{
+	height: 10.4px;
+	width: 22px;
+	float: right;
+	cursor: pointer;
+	font-size: 10px;
+}
+.-last-box-c{
+	height: 16px;
+	width: 16px;
+	float: right;
+	cursor: pointer;
+	margin-right: 5px;
+}
